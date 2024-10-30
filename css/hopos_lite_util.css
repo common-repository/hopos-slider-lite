@@ -1,0 +1,78 @@
+
+.hp_info_btn {
+	background: url(img/info-icon.png) no-repeat; width:16px; height:16px;
+	position:absolute;
+}
+
+.hp_info {
+	position:absolute;
+	display:none; 
+	font-size:12px; 
+	font-style:normal;
+	background:#FFFFE2;
+	padding:10px;
+	min-width:50px;
+	max-width:350px;
+	margin-left:30px;
+	top:-30px;
+	z-index:999;
+	border:#ccc solid 1px;
+	border-radius:5px;
+	box-shadow:1px 1px 6px rgba(0, 0, 0, 0.3);
+}
+
+
+/* saved message */
+
+.clear { clear:both; }
+
+.hpSubmit {
+	width:180px;
+}
+
+.hpSaved {
+	background:#090; color:#fff; font-size:14px; padding:4px 12px 2px; float:right; border-radius:3px; border:#060 solid 1px;
+	margin-left:8px; display:none;
+}
+
+.hpPreload {
+	background:#fff url(../img/preload_16.gif) center no-repeat; width:16px; height:16px; padding:3px; margin-left:8px; left:5px;
+	float:right; display:none;
+}
+
+
+/* form */
+
+#titlediv {
+	margin:20px 0;
+}
+
+#hp-title-prompt-text {
+    color: #111111;
+    font-size: 1.7em;
+    padding: 8px 10px;
+    position: absolute;
+}
+
+
+/* info shortcode */
+
+#info_shortcode {
+	float:left;
+	margin-top:30px;
+	margin-left:0px;
+	width:540px;
+	color:#222;
+	font-size:12px;
+}
+
+#hpCustomSkinContainer {
+	display:none;	
+}
+
+#hp_class_info {
+	border:#ccc solid 1px;
+	background:#f4f4f4;
+	padding:10px;
+	width:550px;
+}
